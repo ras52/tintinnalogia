@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Libertinus Serif";
+    src: url(fonts/LibertinusSerif-Italic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+main {
+    padding-bottom: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 1200px;
+    border-top: thin solid hsl(30,20%,80%);
+    padding-top: 0.5rem;
+    font-size: 85%;
+    height: 1.5rem;
+}
+
+h1 {
+    font-family: "Libertinus Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 240%;
+    text-decoration: underline;
+    color: hsl(30,80%,20%);
+    text-decoration-color: hsl(30,20%,80%);
+    margin-top: 0;
+    padding-top: 0.5rem;
+}
