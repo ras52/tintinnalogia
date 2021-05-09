@@ -11,10 +11,14 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 1200px;
+}
+
+#page-container {
+    position: relative;
     min-height: 100vh;
 }
 
-main {
+#content-wrap {
     padding-bottom: 2rem;
 }
 
@@ -27,6 +31,10 @@ footer {
     padding-top: 0.5rem;
     font-size: 85%;
     height: 1.5rem;
+}
+
+main {
+    padding-bottom: 2.5rem;
 }
 
 h1 {
